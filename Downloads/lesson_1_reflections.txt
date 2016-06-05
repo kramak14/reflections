@@ -1,0 +1,114 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It was a lot simpler and quicker than manually comparing by eyeballing. When I entered
+two given files using the FC command in my Downloads directory, it went right into the
+files and spotted the differences between each line number. It helped me saw which
+word was mispelled on the screen. It took a matter of minutes rather than hours.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+The more versions you save, the better it will be to rollback to older verions of files.
+It will become easier to compare both the old and new file to see what you have changed.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros - Easily can roll back to previous versions of a file. We can compare these two
+files on a Command prompt and make changes to the file we were working on.
+Cons - Sometimes have to manually go back and read each line of code and compare with
+them over and over. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git allows you to save multiple files, because you are version controlling them.
+If someone felt that their old file was better before they made changes, they can
+easily roll back to that version on github.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The command git log can be used to see the history of your changes you made to the
+file in your directory. git diff can compare the differences between the two files and
+note those differences after comparing both the files in the Command line.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+If you accidentally break something in your new version, you can simply roll back to
+the older version provided you also have that version of the file saved. You then
+compare both files and then make those changes to the file so it was like nothing even
+broke. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to use git to store versions of code when making websites. I can make one
+version as rough, then post it on github, then keep updating with better features. Suppose
+something breaks in the newer version, then you can roll back to the older version that
+was working previously then investigate for changes that did not work initially. 
+
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was a lot more efficient and quicker. When doing FC on Windows, when comparing two
+files, it spotted out the differences and after reading through the differences in code, 
+I noticed the bug was on the word mispelled in one version vs. the other version. It was
+very helpful, and will be more helpful in the future when comparing with other files in
+programming. 
+
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+Using DropBox and GitHub will help me create versions of a file, and when new updates
+and changes take effect from one version to the next, it will help get a better 
+understanding to compare what changed from one version to the other. It also will make me 
+a better programmer, because I can organize versions of a file into a repository so I don't
+lose track of what progress and changes I made. Suppose if the changes I did broke my code
+from working, I can always roll back to the previous version and then see what caused it
+to not work.  
+
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros - Very useful to look through older versions, each commit has a unique ID that 
+identifies each commit, git diff we can compare two files and see the differences in
+the commits made (Using the ID numbers comparing one version with the most recent version),
+git log supplies the user with the most recent commit. 
+
+Cons - Must put a commit message each time you commit a version of a project to GitHub. 
+If commits become bigger, it will be harder to understand and less useful. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in 
+one commit, while others, like Google Docs, treat each file separately?
+
+Because when we save versions of our files in git (or make a commit), we will save a 
+version of evey file in our repository. If we had three files and changed only one of the
+files, the file modified will be affected by another commit, leaving the other two
+unaffected, but identical to the last version in our repository. However, if we decide
+to change all three files, all three files would be affected. If we did a dip between
+the 2nd and 3rd files, there would be differences in the timestamp of all 3 files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log is used to see the most recent file that is committed. 
+git diff allows you to compare two files starting with the most recent file and an older
+version of the file (By unique ID number). 
+
+
+How might using version control make you more confident to make changes 
+that could break something?
+
+If you modified a version to add changes to your code and it breaks, you can roll back
+to your previous version that originally worked, then compare two of the files using the
+FC command or git diff in Windows to see what differences are there in both versions of 
+your code. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Future projects in Software Engineering, more programming languages I decide to take up
+(e.g. Android, Ruby, Java, etc), and employment. I am taking this course to understand
+what the importance is in both Software Engineering and in the real employment world.
